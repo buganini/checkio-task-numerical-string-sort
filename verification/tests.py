@@ -11,12 +11,12 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [["01","10","100","20","3"]],
+            "input": ["01","10","100","20","3"],
             "answer": ['01', '3', '10', '20', '100'],
             "explanation": "Sort numerical string"
         },
         {
-            "input": [["1.0a","10.0a","2.0b","2.0a","0.1"]],
+            "input": ["1.0a","10.0a","2.0b","2.0a","0.1"],
             "answer": ['0.1', '1.0a', '2.0a', '2.0b', '10.0a'],
             "explanation": "Sort numerical string mixed with text"
         }

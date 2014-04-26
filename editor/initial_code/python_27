@@ -1,4 +1,4 @@
-def checkio(a, b):
+def checkio(a):
     """
         sort string array by its numerical value
     """
