@@ -1,11 +1,11 @@
-def checkio(a, b):
+def checkio(a):
     """
-        sums two passed arguments
+        sort string array by its numerical value
     """
     return None
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio(3, 2) == 5
-    assert checkio(5, 7) == 12
+    assert checkio(["01","10","100","20","3"]) == ['01', '3', '10', '20', '100']
+    assert checkio(["1.0a","10.0a","2.0b","2.0a","0.1"]) == ['0.1', '1.0a', '2.0a', '2.0b', '10.0a']
     print('Done')
