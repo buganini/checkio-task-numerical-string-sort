@@ -11,26 +11,14 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": ["01","10","100","20","3"],
+            "answer": ['01', '3', '10', '20', '100'],
+            "explanation": "Sort numerical string"
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
+            "input": ["1.0a","10.0a","2.0b","2.0a","0.1"],
+            "answer": ['0.1', '1.0a', '2.0a', '2.0b', '10.0a'],
+            "explanation": "Sort numerical string mixed with text"
         }
     ],
-    "Extra": [
-        {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
-        },
-        {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        }
-    ]
 }
