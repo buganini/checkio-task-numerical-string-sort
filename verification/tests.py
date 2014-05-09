@@ -8,6 +8,8 @@ Each test is dict with
 """
 
 """
+import re
+
 def tryint(s):
     try:
         return int(s)
